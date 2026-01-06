@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="WDD 231 Course Home Page">
+    <meta name="author" content="Ritu Rai">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WDD 231 | Home</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- JavaScript -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo.svg" alt="Site Logo">
+        <span>Ritu Rai</span>
+        <button id="menu">&#9776;</button>
+    </header>
+
+    <nav id="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="#">Chamber</a>
+        <a href="#">Final</a>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <section>
+            <h2>About Me</h2>
+            <p>Welcome to my WDD 231 course home page.</p>
+        </section>
+
+        <section>
+            <h2>Certificate Courses</h2>
+            <div id="course-filters">
+                <button id="all">All</button>
+                <button id="wdd">WDD</button>
+                <button id="cse">CSE</button>
+            </div>
+            <div id="courses"></div>
+            <p>Total Credits: <span id="credits"></span></p>
+        </section>
+
+        <section>
+            <h2>Resources</h2>
+            <p>Helpful learning links will go here.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="https://github.com/yourusername">GitHub</a> |
+            <a href="https://linkedin.com">LinkedIn</a>
+        </div>
+
+        <p>
+            &copy; <span id="currentyear"></span> Ritu Rai | India
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>

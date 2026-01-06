@@ -1,0 +1,36 @@
+@media (min-width: 48rem) {
+
+    nav {
+        display: flex;
+        /* always visible */
+        flex-direction: row;
+        /* HORIZONTAL on desktop */
+        justify-content: center;
+    }
+
+    #menu {
+        display: none;
+        /* hide hamburger */
+    }
+
+}
+
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+main h1 {
+    grid-column: 1 / -1;
+}
+
+main h1 {
+    grid-column: 1 / -1;
+}
+
+section:last-child {
+    grid-column: 1 / -1;
+}
