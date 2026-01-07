@@ -60,6 +60,17 @@ section {
     background-color: #fafafa;
 }
 
+.about-content .photo {
+    flex: 1;
+    text-align: center;
+}
+
+.about-content .photo img {
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
 #courses {
     display: grid;
     gap: 0.5rem;
