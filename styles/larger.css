@@ -33,6 +33,7 @@ main h1 {
 
 .about h2 {
     text-align: center;
+    color: var(--primary-color);
 }
 
 .about-content {
@@ -58,8 +59,9 @@ main h1 {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-.resources h2 {
+.certificate course h2 {
     text-align: center;
+    color: var(--primary-color);
 }
 
 section:last-child {
