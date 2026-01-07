@@ -1,4 +1,8 @@
 @media (min-width: 48rem) {
+    main h1 {
+        font-size: 2.2rem;
+    }
+
 
     nav {
         display: flex;
@@ -18,18 +22,19 @@
 
 
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    main {
+        display: grid;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
 }
 
 main h1 {
+    font-size: 2rem;
     grid-column: 1 / -1;
 }
 
-main h1 {
-    grid-column: 1 / -1;
-}
 
 .about h2 {
     text-align: center;

@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Poppins, sans-serif;
     margin: 0;
 }
 
@@ -58,6 +58,9 @@ main {
     margin: auto;
 }
 
+main h1 {
+    font-size: 1.8rem;
+}
 
 section {
     padding: 1rem;
@@ -67,15 +70,16 @@ section {
 }
 
 .about-content .photo {
-    flex: 1;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
+
 .about-content .photo img {
-    width: 100px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    border-radius: 50%;
 }
+
 
 #courses {
     display: grid;
