@@ -99,3 +99,21 @@ footer a {
     color: #93c5fd;
     text-decoration: none;
 }
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.social img {
+    width: 32px;
+    height: 32px;
+    filter: brightness(0) invert(1);
+    /* white icons on dark footer */
+}
+
+.social a:hover img {
+    transform: scale(1.1);
+}
