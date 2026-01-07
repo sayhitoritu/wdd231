@@ -31,6 +31,22 @@ main h1 {
     grid-column: 1 / -1;
 }
 
+.about h2 {
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.about-content .text {
+    flex: 2;
+}
+
+
 .about-content .photo {
     flex: 1;
     text-align: center;
@@ -40,6 +56,10 @@ main h1 {
     width: 100px;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.resources h2 {
+    text-align: center;
 }
 
 section:last-child {
