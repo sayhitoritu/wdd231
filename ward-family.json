@@ -1,0 +1,23 @@
+{
+    "family_name": "Rai",
+    "move_in_date": "2025-12-20",
+    "number_of_people": 3,
+    "visited_by_bishopric": true,
+    "family_members": [
+        {
+            "name": "Ritu Rai",
+            "gender": "Female",
+            "birthdate": "1998-04-15"
+        },
+        {
+            "name": "Amit Rai",
+            "gender": "Male",
+            "birthdate": "1995-09-22"
+        },
+        {
+            "name": "Anaya Rai",
+            "gender": "Female",
+            "birthdate": "2021-06-03"
+        }
+    ]
+}
