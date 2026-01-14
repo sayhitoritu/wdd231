@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Delhi Chamber Directory</title>
+    <meta name="description" content="Directory of businesses in the Delhi Chamber of Commerce">
+    <meta name="author" content="Mayur Uthale">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Facebook Meta -->
+    <meta property="og:title" content="Delhi Chamber Directory">
+    <meta property="og:description" content="Local businesses and services in Delhi">
+    <meta property="og:image" content="images/chamber.jpg">
+    <meta property="og:url" content="https://yourgithubusername.github.io/wdd231/chamber/directory.html">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+
+    <script src="scripts/directory.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Delhi Chamber of Commerce</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="view-buttons">
+            <button id="grid">Grid View</button>
+            <button id="list">List View</button>
+        </div>
+
+        <section id="members" class="grid"></section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Ritu Rai| WDD 231</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

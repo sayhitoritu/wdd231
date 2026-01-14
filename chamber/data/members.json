@@ -1,0 +1,60 @@
+{
+    "companies": [
+        {
+            "name": "Delhi Tech Solutions",
+            "address": "Rohini, New Delhi",
+            "phone": "+91 9876543210",
+            "website": "https://delhitech.com",
+            "image": "delhi.png",
+            "membership": 3
+        },
+        {
+            "name": "Sweet Bakery",
+            "address": "Pitampura, Delhi",
+            "phone": "+91 9811122233",
+            "website": "https://sweetbakery.com",
+            "image": "bakery.png",
+            "membership": 2
+        },
+        {
+            "name": "Green Pharmacy",
+            "address": "Dwarka, Delhi",
+            "phone": "+91 9888777666",
+            "website": "https://greenpharma.com",
+            "image": "pharmacy.png",
+            "membership": 1
+        },
+        {
+            "name": "Star Electronics",
+            "address": "Karol Bagh",
+            "phone": "+91 9000011111",
+            "website": "https://starelectronics.com",
+            "image": "electronics.png",
+            "membership": 2
+        },
+        {
+            "name": "City Travels",
+            "address": "Connaught Place",
+            "phone": "+91 9999888877",
+            "website": "https://citytravels.com",
+            "image": "travel.png",
+            "membership": 1
+        },
+        {
+            "name": "Fit Gym",
+            "address": "Janakpuri",
+            "phone": "+91 9777766666",
+            "website": "https://fitgym.com",
+            "image": "gym.png",
+            "membership": 3
+        },
+        {
+            "name": "Bright Academy",
+            "address": "Laxmi Nagar",
+            "phone": "+91 9555544444",
+            "website": "https://brightacademy.com",
+            "image": "academy.png",
+            "membership": 2
+        }
+    ]
+}
