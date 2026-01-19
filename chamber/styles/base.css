@@ -1,3 +1,47 @@
+/* ===== Base / Mobile First ===== */
+
+nav {
+    display: none;
+}
+
+#menuBtn {
+    display: block;
+}
+
+.list img {
+    display: none;
+}
+
+/* ===== Large Screens ===== */
+@media (min-width: 32rem) {
+
+    /* Hide hamburger on desktop */
+    #menuBtn {
+        display: none;
+    }
+
+    /* Show navigation */
+    nav {
+        display: block;
+    }
+
+    /* Horizontal navigation */
+    nav ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    /* Improve header spacing */
+    header {
+        padding: 1rem 2rem;
+    }
+
+    /* Grid stays grid on desktop */
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
 header {
     display: flex;
     align-items: center;
@@ -11,6 +55,14 @@ body {
 nav a {
     margin: 10px;
 }
+
+nav a.active {
+    font-weight: bold;
+    background-color: #004080;
+    color: white;
+    border-radius: 4px;
+}
+
 
 .grid {
     display: grid;

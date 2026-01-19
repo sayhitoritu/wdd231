@@ -1,5 +1,11 @@
 const url = "data/members.json";
 const membersDiv = document.querySelector("#members");
+const menuBtn = document.querySelector("#menuBtn");
+const nav = document.querySelector("#primaryNav");
+
+menuBtn.addEventListener("click", () => {
+    nav.classList.toggle("open");
+});
 
 async function getMembers() {
     const response = await fetch(url);

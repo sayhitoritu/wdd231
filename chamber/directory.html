@@ -36,11 +36,19 @@
 
 <body>
     <header>
-        <h1>Delhi Chamber of Commerce</h1>
-        <nav>
-            <a href="#">Home</a>
-            <a href="directory.html">Directory</a>
-            <a href="#">Contact</a>
+        <div class="header-content">
+            <h1>Delhi Chamber of Commerce</h1>
+
+            <button id="menuBtn" aria-label="Toggle navigation">
+                ☰
+            </button>
+        </div>
+        <nav id="primaryNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
