@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delhi Chamber of Commerce</title>
+
+    <meta name="description"
+        content="Delhi Chamber of Commerce supporting local businesses, events, and economic growth.">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="icon" href="favicon.ico">
+
+    <script src="scripts/weather.js" defer></script>
+
+    <script src="scripts/spotlights.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Delhi Chamber of Commerce</h1>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+            <img src="images/hero.webp" alt="Downtown Delhi">
+
+            <div class="hero-text">
+                <h2>Empowering Delhi Businesses. Building a Stronger Economy.</h2>
+                <a href="join.html" class="cta-button">Join the Chamber</a>
+            </div>
+        </section>
+
+        <!-- EVENTS -->
+        <section class="events">
+            <h2>Current Events</h2>
+            <ul>
+                <li>Delhi Business Networking Meet – Feb 12</li>
+                <li>Startup Growth Workshop – Feb 20</li>
+                <li>Local Trade Expo – Mar 2</li>
+            </ul>
+        </section>
+
+        <!-- WEATHER -->
+        <section class="weather">
+            <h2>Weather</h2>
+
+            <p>
+                Current Temperature:
+                <span id="current-temp"></span>
+            </p>
+
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+
+            <h3>3-Day Forecast</h3>
+            <div id="forecast"></div>
+        </section>
+
+        <!-- SPOTLIGHTS -->
+        <section class="spotlights">
+            <h2>Business Spotlights</h2>
+            <div id="spotlight-cards"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            © <span id="year"></span> Delhi Chamber of Commerce |
+            OpenWeatherMap.org | CC BY-SA 4.0
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>

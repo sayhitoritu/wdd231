@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join | Delhi Chamber of Commerce</title>
+    <meta name="description"
+        content="Join the Delhi Chamber of Commerce and grow your business through networking and resources.">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Delhi Chamber of Commerce</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html" class="active">Join</a>
+        </nav>
+    </header>
+
+    <main class="join">
+
+        <section class="join-info">
+            <h2>Join the Chamber</h2>
+            <p>
+                Become a member of the Delhi Chamber of Commerce and gain access to
+                exclusive networking events, business promotion opportunities, and
+                professional resources designed to help your organization grow.
+            </p>
+        </section>
+
+        <section class="membership-levels">
+            <h2>Membership Levels</h2>
+
+            <ul>
+                <li><strong>Non-Profit:</strong> Basic listing and community support</li>
+                <li><strong>Silver:</strong> Training, advertising, and directory promotion</li>
+                <li><strong>Gold:</strong> Premium advertising, sponsorships, and spotlight features</li>
+            </ul>
+        </section>
+
+        <section class="join-form">
+            <h2>Membership Application</h2>
+
+            <form method="get" action="thankyou.html">
+
+                <label>
+                    First Name
+                    <input type="text" name="fname" required>
+                </label>
+
+                <label>
+                    Last Name
+                    <input type="text" name="lname" required>
+                </label>
+
+                <label>
+                    Email
+                    <input type="email" name="email" required>
+                </label>
+
+                <label>
+                    Phone
+                    <input type="tel" name="phone">
+                </label>
+
+                <label>
+                    Business Name
+                    <input type="text" name="business">
+                </label>
+
+                <label>
+                    Membership Level
+                    <select name="membership">
+                        <option value="nonprofit">Non-Profit</option>
+                        <option value="silver">Silver</option>
+                        <option value="gold">Gold</option>
+                    </select>
+                </label>
+
+                <label>
+                    Business Description
+                    <textarea name="description"></textarea>
+                </label>
+
+                <button type="submit">Apply for Membership</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Delhi Chamber of Commerce | © 2026 | WDD 231</p>
+    </footer>
+
+</body>
+
+</html>
