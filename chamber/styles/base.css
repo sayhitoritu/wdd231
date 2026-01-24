@@ -28,6 +28,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 1rem;
 }
 
 .logo img {
@@ -35,23 +36,21 @@ body {
     height: auto;
 }
 
-/* ---------- NAVIGATION ---------- */
+/* ---------- NAVIGATION (MOBILE) ---------- */
 
-nav {
+.main-nav {
     display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #000;
 }
 
-#menuBtn {
-    display: block;
-    background: none;
-    border: none;
-    color: #fff;
-    font-size: 1.5rem;
+.main-nav.open {
+    display: flex;
 }
 
 .main-nav a {
-    display: block;
-    margin: 0.5rem 0;
+    padding: 0.75rem;
     color: #fff;
     text-decoration: none;
 }
@@ -59,6 +58,17 @@ nav {
 .main-nav a.active,
 .main-nav a:hover {
     text-decoration: underline;
+}
+
+/* ---------- HAMBURGER ---------- */
+
+#menuBtn {
+    display: block;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.75rem;
+    cursor: pointer;
 }
 
 /* ---------- HERO ---------- */
@@ -94,7 +104,7 @@ nav {
     border-radius: 4px;
 }
 
-/* ---------- MAIN CONTENT ---------- */
+/* ---------- MAIN ---------- */
 
 main {
     max-width: 1100px;
@@ -149,32 +159,4 @@ footer {
     padding: 1rem;
     border-top: 1px solid #444;
     font-size: 0.9rem;
-}
-
-/* ===============================
-   LARGE SCREENS
-================================ */
-
-@media (min-width: 32rem) {
-
-    #menuBtn {
-        display: none;
-    }
-
-    nav {
-        display: block;
-    }
-
-    .main-nav {
-        display: flex;
-        gap: 1.5rem;
-    }
-
-    .main-nav a {
-        margin: 0;
-    }
-
-    .grid {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    }
 }

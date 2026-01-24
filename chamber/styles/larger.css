@@ -1,0 +1,24 @@
+/* ===============================
+   LARGE SCREENS
+================================ */
+
+@media (min-width: 32rem) {
+
+    /* Hide hamburger */
+    #menuBtn {
+        display: none;
+    }
+
+    /* Show navigation horizontally */
+    .main-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 1rem;
+        width: auto;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
