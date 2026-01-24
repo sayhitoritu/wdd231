@@ -5,7 +5,7 @@
             "address": "Rohini, New Delhi",
             "phone": "+91 7942564961",
             "website": "https://delhitechsolutions.com",
-            "image": "images/delhi.png",
+            "image": "delhi.png",
             "membership": "gold"
         },
         {
@@ -13,7 +13,7 @@
             "address": "Pitampura, Delhi",
             "phone": "+91 9899404698",
             "website": "https://allthingssweetbakery.in",
-            "image": "image/bakery.png",
+            "image": "bakery.png",
             "membership": "silver"
         },
         {
@@ -21,7 +21,7 @@
             "address": "Dwarka, Delhi",
             "phone": "+91 9238259980",
             "website": "https://greenpharma.com",
-            "image": "image/pharmacy.png",
+            "image": "pharmacy.png",
             "membership": "gold"
         },
         {
@@ -29,7 +29,7 @@
             "address": "Karol Bagh",
             "phone": "+91 8046034818",
             "website": "https://starelectronics.com",
-            "image": "image/electronics.png",
+            "image": "electronics.png",
             "membership": "gold"
         },
         {
@@ -37,7 +37,7 @@
             "address": "Connaught Place",
             "phone": "+91 9442502479",
             "website": "https://www.citytravels.co.in",
-            "image": "image/travel.png",
+            "image": "travel.png",
             "membership": "silver"
         },
         {
@@ -45,7 +45,7 @@
             "address": "Janakpuri",
             "phone": "+91 8008048787",
             "website": "https://fitgym.com",
-            "image": "image/gym.png",
+            "image": "gym.png",
             "membership": "gold"
         },
         {
@@ -53,7 +53,7 @@
             "address": "Laxmi Nagar",
             "phone": "+91 9349120521",
             "website": "https://brightacademy.com",
-            "image": "image/academy.png",
+            "image": "academy.png",
             "membership": "gold"
         }
     ]

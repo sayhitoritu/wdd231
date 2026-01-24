@@ -26,6 +26,7 @@ async function getWeather() {
 
         weatherIcon.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
         weatherIcon.alt = desc;
+        weatherIcon.style.display = "block";
         captionDesc.textContent = desc;
     } catch (error) {
         console.error(error);
