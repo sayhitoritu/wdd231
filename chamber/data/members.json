@@ -5,56 +5,56 @@
             "address": "Rohini, New Delhi",
             "phone": "+91 7942564961",
             "website": "https://delhitechsolutions.com",
-            "image": "delhi.png",
-            "membership": 3
+            "image": "images/delhi.png",
+            "membership": "gold"
         },
         {
             "name": "Sweet Bakery",
             "address": "Pitampura, Delhi",
             "phone": "+91 9899404698",
             "website": "https://allthingssweetbakery.in",
-            "image": "bakery.png",
-            "membership": 2
+            "image": "image/bakery.png",
+            "membership": "silver"
         },
         {
             "name": "Green Pharmacy",
             "address": "Dwarka, Delhi",
             "phone": "+91 9238259980",
             "website": "https://greenpharma.com",
-            "image": "pharmacy.png",
-            "membership": 1
+            "image": "image/pharmacy.png",
+            "membership": "gold"
         },
         {
             "name": "Star Electronics",
             "address": "Karol Bagh",
             "phone": "+91 8046034818",
             "website": "https://starelectronics.com",
-            "image": "electronics.png",
-            "membership": 2
+            "image": "image/electronics.png",
+            "membership": "gold"
         },
         {
             "name": "City Travels",
             "address": "Connaught Place",
             "phone": "+91 9442502479",
             "website": "https://www.citytravels.co.in",
-            "image": "travel.png",
-            "membership": 1
+            "image": "image/travel.png",
+            "membership": "silver"
         },
         {
             "name": "Fit Gym",
             "address": "Janakpuri",
             "phone": "+91 8008048787",
             "website": "https://fitgym.com",
-            "image": "gym.png",
-            "membership": 3
+            "image": "image/gym.png",
+            "membership": "gold"
         },
         {
             "name": "Bright Academy",
             "address": "Laxmi Nagar",
             "phone": "+91 9349120521",
             "website": "https://brightacademy.com",
-            "image": "academy.png",
-            "membership": 2
+            "image": "image/academy.png",
+            "membership": "gold"
         }
     ]
 }

@@ -14,27 +14,33 @@
 
     <script src="scripts/weather.js" defer></script>
 
-    <script src="scripts/spotlights.js" defer></script>
 </head>
 
 <body>
 
-    <header>
-        <h1>Delhi Chamber of Commerce</h1>
-        <nav>
-            <a href="index.html" class="active">Home</a>
-            <a href="discover.html">Discover</a>
-            <a href="directory.html">Directory</a>
-            <a href="join.html">Join</a>
-        </nav>
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="logo">
+                <img src="images/logo-delhi-chember.png" alt="Delhi Chamber of Commerce logo">
+            </div>
+            <h1>Delhi Chamber of Commerce</h1>
+
+            <button id="menuBtn">☰</button>
+
+            <nav class="main-nav">
+                <a href="index.html" class="active">Home</a>
+                <a href="discover.html">Discover</a>
+                <a href="directory.html">Directory</a>
+                <a href="join.html">Join</a>
+            </nav>
+        </div>
     </header>
 
     <main>
 
         <!-- HERO -->
         <section class="hero">
-            <img src="images/hero.webp" alt="Downtown Delhi">
-
+            <img src="images/connaught-place.jpg" alt="Downtown Delhi">
             <div class="hero-text">
                 <h2>Empowering Delhi Businesses. Building a Stronger Economy.</h2>
                 <a href="join.html" class="cta-button">Join the Chamber</a>
@@ -53,7 +59,7 @@
 
         <!-- WEATHER -->
         <section class="weather">
-            <h2>Weather</h2>
+            <h2>Weather in Delhi</h2>
 
             <p>
                 Current Temperature:
@@ -72,8 +78,10 @@
         <!-- SPOTLIGHTS -->
         <section class="spotlights">
             <h2>Business Spotlights</h2>
-            <div id="spotlight-cards"></div>
+            <div id="spotlight-container"></div>
         </section>
+
+        <script src="scripts/spotlight.js" defer></script>
 
     </main>
 
