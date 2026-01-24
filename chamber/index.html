@@ -2,44 +2,41 @@
 <html lang="en">
 
 <head>
-  <!-- Meta Basics -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta Basics -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Delhi Chamber of Commerce | Business & Community Growth</title>
+    <title>Delhi Chamber of Commerce | Business & Community Growth</title>
 
-  <meta name="description"
-    content="The Delhi Chamber of Commerce supports local businesses through networking, events, resources, and economic development opportunities across Delhi.">
+    <meta name="description"
+        content="The Delhi Chamber of Commerce supports local businesses through networking, events, resources, and economic development opportunities across Delhi.">
 
-  <meta name="author" content="Ritu Rai">
+    <meta name="author" content="Ritu Rai">
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:title"
-    content="Delhi Chamber of Commerce – Supporting Local Businesses in Delhi">
-  <meta property="og:description"
-    content="Discover how the Delhi Chamber of Commerce empowers local businesses through events, networking, resources, and economic growth initiatives.">
-  <meta property="og:image"
-    content="https://raw.githubusercontent.com/sayhitoritu/wdd231/main/chamber/images/og-delhi-chember.png">
-  <meta property="og:url"
-    content="https://sayhitoritu.github.io/wdd231/chamber/">
-  <meta property="og:type" content="website">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Delhi Chamber of Commerce – Supporting Local Businesses in Delhi">
+    <meta property="og:description"
+        content="Discover how the Delhi Chamber of Commerce empowers local businesses through events, networking, resources, and economic growth initiatives.">
+    <meta property="og:image" content="images/og-delhi-chember.png">
+    <meta property="og:url" content="https://sayhitoritu.github.io/wdd231/chamber/">
+    <meta property="og:type" content="website">
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-    rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="styles/base.css">
-  <link rel="stylesheet" href="styles/larger.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 
-  <!-- Favicon -->
-  <link rel="icon" href="favicon.ico">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
 
-  <!-- Scripts -->
-  <script src="scripts/weather.js" defer></script>
-  <script src="scripts/spotlight.js" defer></script>
+    <!-- Scripts -->
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+    <script src="scripts/date.js" defer></script>
 </head>
 
 <body>
@@ -93,8 +90,7 @@
             </p>
 
             <figure>
-                <img id="weather-icon" src="images/weather-placeholder.png" alt="Weather icon" width="80" height="80"
-                    style="display: none;">
+                <img id="weather-icon" class="hidden" alt="Weather icon">
 
                 <figcaption></figcaption>
             </figure>
@@ -119,10 +115,6 @@
             OpenWeatherMap.org | CC BY-SA 4.0
         </p>
     </footer>
-
-    <script>
-        document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
 
 </body>
 
