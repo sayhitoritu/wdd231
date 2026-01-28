@@ -152,6 +152,26 @@ section {
     margin: 0.5rem auto;
 }
 
+.join-layout {
+    display: grid;
+    gap: 2rem;
+}
+
+.membership-cards .card {
+    animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
 /* ---------- FOOTER ---------- */
 
 footer {

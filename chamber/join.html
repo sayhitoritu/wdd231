@@ -5,98 +5,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Join | Delhi Chamber of Commerce</title>
+
     <meta name="description"
-        content="Join the Delhi Chamber of Commerce and grow your business through networking and resources.">
+        content="Apply for membership with the Delhi Chamber of Commerce and grow your business through networking and opportunities.">
+    <meta name="author" content="Ritu Rai">
+
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+
+    <script src="scripts/join.js" defer></script>
 </head>
 
 <body>
 
-    <header>
-        <h1>Delhi Chamber of Commerce</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="discover.html">Discover</a>
-            <a href="directory.html">Directory</a>
-            <a href="join.html" class="active">Join</a>
-        </nav>
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="logo">
+                <img src="images/og-delhi-chember.png" alt="Delhi Chamber of Commerce logo">
+            </div>
+            <h1>Delhi Chamber of Commerce</h1>
+
+            <button id="menuBtn">☰</button>
+
+            <nav class="main-nav">
+                <a href="index.html">Home</a>
+                <a href="discover.html">Discover</a>
+                <a href="directory.html">Directory</a>
+                <a href="join.html" class="active">Join</a>
+            </nav>
+        </div>
     </header>
 
-    <main class="join">
+    <main class="join-layout">
 
-        <section class="join-info">
-            <h2>Join the Chamber</h2>
-            <p>
-                Become a member of the Delhi Chamber of Commerce and gain access to
-                exclusive networking events, business promotion opportunities, and
-                professional resources designed to help your organization grow.
-            </p>
+        <form method="get" action="thankyou.html" class="join-form">
+
+            <label>
+                First Name
+                <input type="text" name="fname" required autocomplete="given-name" title="Enter your first name">
+            </label>
+
+            <label>
+                Last Name
+                <input type="text" name="lname" required autocomplete="family-name" title="Enter your last name">
+            </label>
+
+            <label>
+                Organizational Title
+                <input type="text" name="orgtitle" pattern="[A-Za-z\- ]{7,}" autocomplete="organization-title"
+                    title="At least 7 characters, letters, spaces, and hyphens only">
+            </label>
+
+            <label>
+                Email Address
+                <input type="email" name="email" required autocomplete="email" placeholder="example@email.com"
+                    title="Enter a valid email">
+            </label>
+
+            <label>
+                Mobile Phone
+                <input type="tel" name="phone" required autocomplete="tel" title="Enter your mobile number">
+            </label>
+
+            <label>
+                Business Name
+                <input type="text" name="business" required autocomplete="organization"
+                    title="Enter your business name">
+            </label>
+
+            <label>
+                Membership Level
+                <select name="membership" required>
+                    <option value="">Select a level</option>
+                    <option value="np">NP Membership</option>
+                    <option value="bronze">Bronze</option>
+                    <option value="silver">Silver</option>
+                    <option value="gold">Gold</option>
+                </select>
+            </label>
+
+            <label>
+                Business Description
+                <textarea name="description" title="Describe your business"></textarea>
+            </label>
+
+            <!-- hidden timestamp -->
+            <input type="hidden" name="timestamp" id="timestamp">
+
+            <input type="submit" value="Apply for Membership">
+
+        </form>
+
+        <!-- MEMBERSHIP CARDS -->
+        <section class="membership-cards">
+
+            <div class="card">
+                <h3>NP Membership</h3>
+                <a href="#" data-modal="npModal">View Benefits</a>
+            </div>
+
+            <div class="card">
+                <h3>Bronze Membership</h3>
+                <a href="#" data-modal="bronzeModal">View Benefits</a>
+            </div>
+
+            <div class="card">
+                <h3>Silver Membership</h3>
+                <a href="#" data-modal="silverModal">View Benefits</a>
+            </div>
+
+            <div class="card">
+                <h3>Gold Membership</h3>
+                <a href="#" data-modal="goldModal">View Benefits</a>
+            </div>
+
         </section>
 
-        <section class="membership-levels">
-            <h2>Membership Levels</h2>
-
-            <ul>
-                <li><strong>Non-Profit:</strong> Basic listing and community support</li>
-                <li><strong>Silver:</strong> Training, advertising, and directory promotion</li>
-                <li><strong>Gold:</strong> Premium advertising, sponsorships, and spotlight features</li>
-            </ul>
-        </section>
-
-        <section class="join-form">
-            <h2>Membership Application</h2>
-
-            <form method="get" action="thankyou.html">
-
-                <label>
-                    First Name
-                    <input type="text" name="fname" required>
-                </label>
-
-                <label>
-                    Last Name
-                    <input type="text" name="lname" required>
-                </label>
-
-                <label>
-                    Email
-                    <input type="email" name="email" required>
-                </label>
-
-                <label>
-                    Phone
-                    <input type="tel" name="phone">
-                </label>
-
-                <label>
-                    Business Name
-                    <input type="text" name="business">
-                </label>
-
-                <label>
-                    Membership Level
-                    <select name="membership">
-                        <option value="nonprofit">Non-Profit</option>
-                        <option value="silver">Silver</option>
-                        <option value="gold">Gold</option>
-                    </select>
-                </label>
-
-                <label>
-                    Business Description
-                    <textarea name="description"></textarea>
-                </label>
-
-                <button type="submit">Apply for Membership</button>
-            </form>
-        </section>
+        <!-- MODALS -->
+        <dialog id="npModal">
+            <p>Free membership for nonprofits.</p><button>Close</button>
+        </dialog>
+        <dialog id="bronzeModal">
+            <p>Events & basic advertising.</p><button>Close</button>
+        </dialog>
+        <dialog id="silverModal">
+            <p>Training, discounts & spotlight eligibility.</p><button>Close</button>
+        </dialog>
+        <dialog id="goldModal">
+            <p>Premium exposure, spotlight & sponsorships.</p><button>Close</button>
+        </dialog>
 
     </main>
 
     <footer>
-        <p>Delhi Chamber of Commerce | © 2026 | WDD 231</p>
+        © <span id="year"></span> Delhi Chamber of Commerce
     </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 
 </body>
 

@@ -1,4 +1,10 @@
 @media (min-width: 48rem) {
+    .join-layout {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+main {
     main h1 {
         font-size: 2.2rem;
     }
@@ -66,4 +72,29 @@ main h1 {
 
 section:last-child {
     grid-column: 1 / -1;
+}
+
+dialog {
+    max-width: 500px;
+    width: 90%;
+    border: none;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background: #ffffff;
+    color: #000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#closeModal {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    cursor: pointer;
 }
