@@ -1,0 +1,74 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #F5F6FA;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #0A3D62;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Sections */
+section {
+    background: white;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    max-width: 900px;
+    border-radius: 8px;
+}
+
+/* Headings */
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #0A3D62;
+}
+
+/* Color boxes */
+.color-box {
+    padding: 1rem;
+    margin: .5rem 0;
+    color: white;
+    font-weight: bold;
+}
+
+.primary {
+    background: #0A3D62;
+}
+
+.secondary {
+    background: #3C6382;
+}
+
+.background {
+    background: #60A3BC;
+}
+
+.accent {
+    background: #82CCDD;
+}
+
+/* Wireframe style */
+.wireframe {
+    background: #eee;
+    padding: 1rem;
+    font-family: monospace;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #0A3D62;
+    color: white;
+}
