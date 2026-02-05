@@ -171,6 +171,17 @@ section {
     }
 }
 
+.discover-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.discover-grid section {
+    border: 1px solid #444;
+    padding: 1rem;
+}
+
+
 
 /* ---------- FOOTER ---------- */
 

@@ -1,0 +1,57 @@
+/* ===== VISIT MESSAGE ===== */
+.visit-box {
+    background: #222;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* ===== GRID AREAS ===== */
+
+.discover-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+/* SMALL */
+.discover-grid {
+    grid-template-columns: 1fr;
+}
+
+/* MEDIUM */
+@media (min-width: 641px) {
+    .discover-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* LARGE */
+@media (min-width: 1025px) {
+    .discover-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* ===== CARD ===== */
+
+.card {
+    background: #111;
+    padding: 1rem;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* hover effect (desktop only) */
+@media (min-width: 641px) {
+    .card img:hover {
+        filter: brightness(120%);
+        transform: scale(1.05);
+        transition: 0.3s;
+    }
+}
