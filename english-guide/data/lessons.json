@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "level": "Beginner",
+        "topic": "Speaking",
+        "title": "Basic Greetings",
+        "description": "Learn how to greet people.",
+        "example": "Hello! How are you?"
+    },
+    {
+        "id": 2,
+        "level": "Beginner",
+        "topic": "Vocabulary",
+        "title": "Common Nouns",
+        "description": "Learn everyday objects.",
+        "example": "This is a book."
+    },
+    {
+        "id": 3,
+        "level": "Beginner",
+        "topic": "Grammar",
+        "title": "Simple Sentences",
+        "description": "Form basic sentences.",
+        "example": "I like coffee."
+    },
+    {
+        "id": 4,
+        "level": "Beginner",
+        "topic": "Speaking",
+        "title": "Introducing Yourself",
+        "description": "Say your name.",
+        "example": "My name is Anna."
+    },
+    {
+        "id": 5,
+        "level": "Beginner",
+        "topic": "Vocabulary",
+        "title": "Days of the Week",
+        "description": "Learn weekdays.",
+        "example": "Today is Monday."
+    },
+    {
+        "id": 6,
+        "level": "Beginner",
+        "topic": "Grammar",
+        "title": "Pronouns",
+        "description": "Learn I, you, he, she.",
+        "example": "She is happy."
+    },
+    {
+        "id": 7,
+        "level": "Beginner",
+        "topic": "Speaking",
+        "title": "Asking Questions",
+        "description": "Ask simple questions.",
+        "example": "What is your name?"
+    },
+    {
+        "id": 8,
+        "level": "Beginner",
+        "topic": "Vocabulary",
+        "title": "Food Words",
+        "description": "Common foods.",
+        "example": "I eat rice."
+    },
+    {
+        "id": 9,
+        "level": "Beginner",
+        "topic": "Grammar",
+        "title": "Present Tense",
+        "description": "Talk about now.",
+        "example": "I work today."
+    },
+    {
+        "id": 10,
+        "level": "Beginner",
+        "topic": "Speaking",
+        "title": "Polite Words",
+        "description": "Say please and thank you.",
+        "example": "Thank you very much."
+    },
+    {
+        "id": 11,
+        "level": "Beginner",
+        "topic": "Vocabulary",
+        "title": "Colors",
+        "description": "Learn basic colors.",
+        "example": "The sky is blue."
+    },
+    {
+        "id": 12,
+        "level": "Beginner",
+        "topic": "Grammar",
+        "title": "Plural Nouns",
+        "description": "Singular vs plural.",
+        "example": "Two apples."
+    },
+    {
+        "id": 13,
+        "level": "Beginner",
+        "topic": "Speaking",
+        "title": "Daily Activities",
+        "description": "Talk about routines.",
+        "example": "I wake up early."
+    },
+    {
+        "id": 14,
+        "level": "Beginner",
+        "topic": "Vocabulary",
+        "title": "Family Words",
+        "description": "Family members.",
+        "example": "This is my brother."
+    },
+    {
+        "id": 15,
+        "level": "Beginner",
+        "topic": "Grammar",
+        "title": "Basic Prepositions",
+        "description": "in, on, under",
+        "example": "The cat is on the table."
+    }
+]
