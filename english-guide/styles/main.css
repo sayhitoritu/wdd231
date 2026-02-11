@@ -75,6 +75,30 @@ main {
     text-align: center;
 }
 
+.hero-text {
+    background-color: #000000;
+    /* darker overlay */
+    color: #ffffff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #002244;
+    /* darker blue */
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #004080;
+}
+
+
+
 .btn {
     background: #003366;
     color: white;
