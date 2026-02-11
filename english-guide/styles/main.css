@@ -19,11 +19,14 @@ body {
     text-align: center;
 }
 
+
 .lesson-card img {
     width: 100%;
     height: auto;
-    border-radius: 6px;
+    display: block;
+    border-radius: 8px;
 }
+
 
 .lesson-card h3 {
     margin-top: 0.75rem;
@@ -74,6 +77,13 @@ main {
     padding: 2rem;
     text-align: center;
 }
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 
 .hero-text {
     background-color: #000000;
