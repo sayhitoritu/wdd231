@@ -4,7 +4,10 @@
 
     nav {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        /* center everything */
+        gap: 2rem;
+        /* space between links */
     }
 
     .lesson-grid {
