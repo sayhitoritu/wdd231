@@ -14,9 +14,9 @@ body {
 
 .lesson-card {
     background-color: #1f1f1f;
-    padding: 1rem;
+    color: #ffffff;
+    padding: 1.5rem;
     border-radius: 8px;
-    text-align: center;
 }
 
 
@@ -30,10 +30,12 @@ body {
 
 .lesson-card h3 {
     margin-top: 0.75rem;
+    color: #ffffff;
 }
 
 .lesson-card p {
     font-size: 0.95rem;
+    color: #e0e0e0;
 }
 
 .lesson-card button {
