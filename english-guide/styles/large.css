@@ -1,0 +1,20 @@
+/* Large screen layout */
+
+@media (min-width: 768px) {
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .lesson-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    main {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
